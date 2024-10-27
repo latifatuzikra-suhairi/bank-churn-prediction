@@ -8,15 +8,15 @@ In the highly competitive banking industry, the challenge of customer retention 
 To develop a predictive model to identify customers likely to churn.
 
 ### Methodology
-1. Data Collection
+1. Data Collection.
    Data was collected from [Kaggle](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn/data) named "Bank Customer Churn". There are 10.000 rows of data and 18 features about bank customer churn.
-2. Data Pre-Processing
+2. Data Pre-Processing.
    The data is clean enough to process to the next analysis step
 3. Exploratory Data Analysis
    Conduct a comprehensive analysis to extract valuable insights from the data. It helps to identify relationships between variables, discover patterns and trends, guide model selection, and inform data cleaning processes for more effective analysis.
-4. Feature Engineering
+4. Feature Engineering.
    Create or modify the feature of data  to improve model performance. In this project, we performed one-hot encoding to convert categorical data into a numerical format suitable for machine learning algorithms, and applied feature scaling to improve the performance and convergence of these algorithms, particularly those sensitive to data scale, such as gradient descent-based methods.
-5. Data Modelling & Evaluation
+5. Data Modelling & Evaluation.
    We built a bank churn prediction model by comparing two algorithms: Random Forest Classifier and Gradient Boosting Classifier. The performance of each model was evaluated using a confusion matrix and key evaluation metrics, including accuracy and F1 score.
 
 ### Conclusion
